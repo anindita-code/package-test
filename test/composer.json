@@ -1,0 +1,24 @@
+{
+    "name": "anindita/test",
+    "description": "this package is for testing laravel package developement",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "example",
+            "email": "example@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Anindita\\Test\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Anindita\\Test\\TestServiceProvider"
+            ]
+        }
+    }
+}
